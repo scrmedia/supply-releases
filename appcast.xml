@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Supply</title>
+        <item>
+            <title>0.9.1</title>
+            <pubDate>Tue, 25 Aug 2026 15:52:25 +0100</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.9.1.dmg" length="3610038" type="application/octet-stream" sparkle:edSignature="/3qmhKBMV9b7vq/jrNb4ckKoh+VqHdbOrLEVaTycF7bL4s51iqDB91t6mrhBe2vH8eW7igUs0ZxpgcnVR695CQ=="/>
+        </item>
+    </channel>
+</rss>
