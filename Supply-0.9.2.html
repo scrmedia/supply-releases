@@ -1,0 +1,7 @@
+<h3>Supply 0.9.2 — corrections now match Premiere</h3>
+<ul>
+  <li><b>Per-clip corrections moved beneath the LUTs.</b> Exposure and tone now act on the decoded log source before the LUT stack, so pulling exposure down recovers highlight detail instead of adjusting an already-baked look — matching how you grade in Premiere (corrections on the clip, LUTs on an adjustment layer above).</li>
+  <li><b>Every Basic-Correction slider calibrated to Lumetri.</b> Exposure, Temperature/Tint, Contrast, Saturation, Highlights, Shadows, Whites and Blacks were each measured against Premiere on S-Log3 and now behave the same — a value you dial here means what it means there.</li>
+  <li><b>Exposure now reads in EV</b> (e.g. −1.00 EV), matching Lumetri's own scale.</li>
+  <li><b>White-balance eyedropper</b> now samples the log source before the LUTs, so it neutralises the camera's cast while preserving the creative look.</li>
+</ul>

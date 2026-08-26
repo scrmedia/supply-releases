@@ -3,6 +3,44 @@
     <channel>
         <title>Supply</title>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Wed, 26 Aug 2026 09:35:59 +0100</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+  <li><b>Frame-rate on export</b> — deliver at a lower frame rate (e.g. 50p footage as 25p) via clean frame-dropping, matching Premiere.</li>
+  <li>LUT-stack colour grading with Premiere-matched corrections (contrast, saturation, whites/blacks).</li>
+  <li>Reframe to multiple aspect ratios, per-clip trim &amp; mute.</li>
+  <li>Batch export with delivery presets (Instagram 1080p H.264 / Master 4K HEVC) and a shareable caption.</li>
+</ul>
+]]></description>
+            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.9.0.dmg" length="3630995" type="application/octet-stream" sparkle:edSignature="y4E62iBMx47QEGHtqPeIjKyNqKGFOfvcDT1uCEmehVrW4fWww95q5ZvpvEotYpPWaRzTSzRCp49PxMPauzdzAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply117-116.delta" sparkle:deltaFrom="116" length="320386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7zMx7T+Csof9RM5GTscyYMPnOPGNiroJdR4Zq8p0DM253ksb6+6/e+xPM7fS2DLmHZGrdRZdPcOZQnZJIcCXCQ=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply117-103.delta" sparkle:deltaFrom="103" length="357038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pr0sKLerUsPuPIw/zqwxJDmkStSpLL3H/Zk6zVPnBtXaqCJCJmSvPel4Wt3F0DY4ghDVenJDs4xWEcdc6sFHDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.9.2</title>
+            <pubDate>Tue, 25 Aug 2026 22:52:25 +0100</pubDate>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Supply 0.9.2 — corrections now match Premiere</h3>
+<ul>
+  <li><b>Per-clip corrections moved beneath the LUTs.</b> Exposure and tone now act on the decoded log source before the LUT stack, so pulling exposure down recovers highlight detail instead of adjusting an already-baked look — matching how you grade in Premiere (corrections on the clip, LUTs on an adjustment layer above).</li>
+  <li><b>Every Basic-Correction slider calibrated to Lumetri.</b> Exposure, Temperature/Tint, Contrast, Saturation, Highlights, Shadows, Whites and Blacks were each measured against Premiere on S-Log3 and now behave the same — a value you dial here means what it means there.</li>
+  <li><b>Exposure now reads in EV</b> (e.g. −1.00 EV), matching Lumetri's own scale.</li>
+  <li><b>White-balance eyedropper</b> now samples the log source before the LUTs, so it neutralises the camera's cast while preserving the creative look.</li>
+</ul>
+]]></description>
+            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.9.2.dmg" length="3617598" type="application/octet-stream" sparkle:edSignature="Szylt9amQ+6tUKwAcSGpYZF9n14CbV3ko3wU92+6SpCo2m411TWjnh5j6ZMFFIRZC3LS8k+WNX13foXyFQGpBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply116-103.delta" sparkle:deltaFrom="103" length="260806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xBOyTpNViWEEe0xQYhdNu4EmS6T7eUjaigifwlCT342hfnHwDqP57NmXdxEc8rdJHkUUc5e51tF5NuYmrz66BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.1</title>
             <pubDate>Tue, 25 Aug 2026 15:52:25 +0100</pubDate>
             <sparkle:version>103</sparkle:version>
