@@ -3,6 +3,31 @@
     <channel>
         <title>Supply</title>
         <item>
+            <title>0.10.0</title>
+            <pubDate>Thu, 27 Aug 2026 23:31:43 +0100</pubDate>
+            <sparkle:version>186</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Supply 0.10.0</h3>
+<ul>
+  <li><b>Per-clip looks</b> — give an individual clip its own LUT stack (e.g. one clip black-and-white while the rest of the wedding stays colour). The whole-session look stays the default; switch scope in the Look section.</li>
+  <li><b>Light / Dark / System appearance</b> — pick your theme in Settings. The app now opens in Dark by default.</li>
+  <li><b>Redesigned Inspector</b> — cleaner Premiere/Lightroom-style sections and consistent, tidier action buttons.</li>
+  <li><b>Reframe &amp; viewer modes</b> — Esc now reliably exits any viewer tool, with an on-screen badge showing the active mode.</li>
+  <li><b>Undo survives look changes</b> — trying a different LUT no longer wipes your grading undo history.</li>
+  <li><b>Easier importing</b> — a + button and right-click “Import Clips…” in the clip list, and the window opens at a more usable size.</li>
+  <li>Fixes: LUT names now display correctly after reopening a session, plus assorted polish.</li>
+</ul>
+]]></description>
+            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.10.0.dmg" length="4104636" type="application/octet-stream" sparkle:edSignature="vFmNXYGJN9nQkV+nhxHN1MRol+DEoQkDHQDgXxt5EoBq3fovSbPHqB7EJsybwEYL09awLDv/otC9t9QsYiwFBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply186-118.delta" sparkle:deltaFrom="118" length="843358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ql9w2l3cbuhAxo6JGBKZz8locaJi0oYZpUPfbMUvURZveSG71+RXLxSlQiFlmq+hz204S+OWOgLAEWPe30gSBA=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply186-117.delta" sparkle:deltaFrom="117" length="845038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uurt9eRbw/inoWIR+7gX5PhLJkfhLYMZw6lmDRitZDmMx/4tb6J5YxlVPwxsKjrlYC14+hq0zzZEUEOr7CB+CA=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply186-116.delta" sparkle:deltaFrom="116" length="881974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SyUv/fQf9vwgyaIQ9s14tJSE1IEU6VOxxlvfPiSrCFW5/mVh7iBilGfvf1MGdvCNH3nS68jHfh5ipVTBb+EnDw=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply186-103.delta" sparkle:deltaFrom="103" length="889058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6dIUCd1uV36WcrdBQhBTJsvjIh8L+7stuzVLANmCbMyws/iRP3zf7dlFimvxCPRkbzEVuY/CDB8rBBGI0p96Bg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.9.3</title>
             <pubDate>Wed, 26 Aug 2026 09:46:49 +0100</pubDate>
             <sparkle:version>118</sparkle:version>
@@ -39,25 +64,6 @@
             <sparkle:deltas>
                 <enclosure url="https://scrmedia.github.io/supply-releases/Supply117-116.delta" sparkle:deltaFrom="116" length="320386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7zMx7T+Csof9RM5GTscyYMPnOPGNiroJdR4Zq8p0DM253ksb6+6/e+xPM7fS2DLmHZGrdRZdPcOZQnZJIcCXCQ=="/>
                 <enclosure url="https://scrmedia.github.io/supply-releases/Supply117-103.delta" sparkle:deltaFrom="103" length="357038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pr0sKLerUsPuPIw/zqwxJDmkStSpLL3H/Zk6zVPnBtXaqCJCJmSvPel4Wt3F0DY4ghDVenJDs4xWEcdc6sFHDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.2</title>
-            <pubDate>Tue, 25 Aug 2026 22:52:25 +0100</pubDate>
-            <sparkle:version>116</sparkle:version>
-            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Supply 0.9.2 — corrections now match Premiere</h3>
-<ul>
-  <li><b>Per-clip corrections moved beneath the LUTs.</b> Exposure and tone now act on the decoded log source before the LUT stack, so pulling exposure down recovers highlight detail instead of adjusting an already-baked look — matching how you grade in Premiere (corrections on the clip, LUTs on an adjustment layer above).</li>
-  <li><b>Every Basic-Correction slider calibrated to Lumetri.</b> Exposure, Temperature/Tint, Contrast, Saturation, Highlights, Shadows, Whites and Blacks were each measured against Premiere on S-Log3 and now behave the same — a value you dial here means what it means there.</li>
-  <li><b>Exposure now reads in EV</b> (e.g. −1.00 EV), matching Lumetri's own scale.</li>
-  <li><b>White-balance eyedropper</b> now samples the log source before the LUTs, so it neutralises the camera's cast while preserving the creative look.</li>
-</ul>
-]]></description>
-            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.9.2.dmg" length="3617598" type="application/octet-stream" sparkle:edSignature="Szylt9amQ+6tUKwAcSGpYZF9n14CbV3ko3wU92+6SpCo2m411TWjnh5j6ZMFFIRZC3LS8k+WNX13foXyFQGpBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://scrmedia.github.io/supply-releases/Supply116-103.delta" sparkle:deltaFrom="103" length="260806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xBOyTpNViWEEe0xQYhdNu4EmS6T7eUjaigifwlCT342hfnHwDqP57NmXdxEc8rdJHkUUc5e51tF5NuYmrz66BA=="/>
             </sparkle:deltas>
         </item>
     </channel>
