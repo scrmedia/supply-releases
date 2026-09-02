@@ -3,6 +3,29 @@
     <channel>
         <title>Supply</title>
         <item>
+            <title>0.11.0</title>
+            <pubDate>Wed, 02 Sep 2026 14:26:56 +0100</pubDate>
+            <sparkle:version>255</sparkle:version>
+            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Supply 0.11.0</h3>
+<ul>
+  <li><b>Much faster colour correction</b> — dragging a slider now updates the preview instantly instead of lagging behind. Playback and scrubbing are smoother too, especially with a grade applied.</li>
+  <li><b>Smoother clip switching</b> — clicking between clips no longer flashes black; the previous frame stays up until the new one is ready.</li>
+  <li><b>Categorize</b> — automatically sort clips by supplier (ceremony, speeches, first dance, etc.) using on-device analysis. Find it under Clips ▸ Categorize….</li>
+  <li>Numerous behind-the-scenes performance and stability improvements to the preview pipeline.</li>
+</ul>
+]]></description>
+            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.11.0.dmg" length="4787506" type="application/octet-stream" sparkle:edSignature="FQK5RMdEm5rw/I8KvC9Fkd+OUc1cqD4MLkhouvnA1ejpMe2RsZHntMcPI0QF6//TdeD8yaAzmPFzDkZ+TOLFDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply255-186.delta" sparkle:deltaFrom="186" length="1205214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nY/3I9vJnJKgK8OTtvAIGL4ORERXsQR/F7EojBekORFQnvwwtcAmP5eCy68UoG6qIpBhgzAze79oQc3S4cHMCw=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply255-118.delta" sparkle:deltaFrom="118" length="1441102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gyu47sUlTiZtKXPqLwXOgQI7ZGt8RIxCQBG54z7zZcr2DX/n6dDhFqpEOoipYPEzL8v6x0Um5fUJ3TMJE+iECg=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply255-117.delta" sparkle:deltaFrom="117" length="1443318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L6FXblSgDpn5Y8AKa5hGjxiXnHR/04vJ7Hn3dA10wgL5MJMktT41X7+mCe2f8crFQ5arRAyaYFaLznzTWbdHAQ=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply255-116.delta" sparkle:deltaFrom="116" length="1467150" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SqLdeU7S2O+TH81R4BiNjzfYdXC+Y34Oz4haVOtLrBKY6v+SYFveX0Yf23iOenmfKtzJaZDrj1/nZNHMf0pvAg=="/>
+                <enclosure url="https://scrmedia.github.io/supply-releases/Supply255-103.delta" sparkle:deltaFrom="103" length="1471030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0ZB+9Gg1F6DuMn8SYPPrfNm3AW79EPsJvX1Fn2rOjKSomhyDZG3Lr1EdoFBHXWExF9n9ypX8XC9Qzx24q6wHDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.10.0</title>
             <pubDate>Thu, 27 Aug 2026 23:31:43 +0100</pubDate>
             <sparkle:version>186</sparkle:version>
@@ -45,25 +68,6 @@
                 <enclosure url="https://scrmedia.github.io/supply-releases/Supply118-117.delta" sparkle:deltaFrom="117" length="12446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/MtjH3M0QXMvpiQxQjABq3EpzOlYDCmSxFqT15UHSwBfvSuKvLYz4+lBbvwPwEmMl+M2tm7yrt12dA9NQLRsBQ=="/>
                 <enclosure url="https://scrmedia.github.io/supply-releases/Supply118-116.delta" sparkle:deltaFrom="116" length="319902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="r47Nt/TeKNBLg727ZySkzQCrVoOC7izxr6j8oCkCn7Z7tXNNe95LF1dbUdAVH4xthbDSwfLmFpWFRl6N2d7gBA=="/>
                 <enclosure url="https://scrmedia.github.io/supply-releases/Supply118-103.delta" sparkle:deltaFrom="103" length="356982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y+sGOzI83oSXSzeI2yxh+S4ocDmjOjWx8594/sYgSZn0JEVjqEu6+BkBagxNLZD1LbiDHcKZTw7b90tTj7DvAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.9.0</title>
-            <pubDate>Wed, 26 Aug 2026 09:35:59 +0100</pubDate>
-            <sparkle:version>117</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<ul>
-  <li><b>Frame-rate on export</b> — deliver at a lower frame rate (e.g. 50p footage as 25p) via clean frame-dropping, matching Premiere.</li>
-  <li>LUT-stack colour grading with Premiere-matched corrections (contrast, saturation, whites/blacks).</li>
-  <li>Reframe to multiple aspect ratios, per-clip trim &amp; mute.</li>
-  <li>Batch export with delivery presets (Instagram 1080p H.264 / Master 4K HEVC) and a shareable caption.</li>
-</ul>
-]]></description>
-            <enclosure url="https://scrmedia.github.io/supply-releases/Supply-0.9.0.dmg" length="3630995" type="application/octet-stream" sparkle:edSignature="y4E62iBMx47QEGHtqPeIjKyNqKGFOfvcDT1uCEmehVrW4fWww95q5ZvpvEotYpPWaRzTSzRCp49PxMPauzdzAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://scrmedia.github.io/supply-releases/Supply117-116.delta" sparkle:deltaFrom="116" length="320386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7zMx7T+Csof9RM5GTscyYMPnOPGNiroJdR4Zq8p0DM253ksb6+6/e+xPM7fS2DLmHZGrdRZdPcOZQnZJIcCXCQ=="/>
-                <enclosure url="https://scrmedia.github.io/supply-releases/Supply117-103.delta" sparkle:deltaFrom="103" length="357038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pr0sKLerUsPuPIw/zqwxJDmkStSpLL3H/Zk6zVPnBtXaqCJCJmSvPel4Wt3F0DY4ghDVenJDs4xWEcdc6sFHDg=="/>
             </sparkle:deltas>
         </item>
     </channel>
